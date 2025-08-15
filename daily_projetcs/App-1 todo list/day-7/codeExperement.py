@@ -1,3 +1,4 @@
+#How To Comment line of codes
 
 while True:
     user = input("type add show edit delete exit : ")
@@ -21,6 +22,8 @@ while True:
             file = open('xogta7.txt','r')
             todos = file.readlines()
             file.close()
+
+            #new_todos = [item.strip('\n') for item in todos]
 
             for index, item in enumerate (todos):
                 item = item.strip('\n')
